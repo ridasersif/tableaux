@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1727424598 source:c:\users\youcode\desktop\c\tableaux\challenge 2 saisie et affichage des Éléments\main.c
+	<stdio.h>
+	<stdlib.h>
+
