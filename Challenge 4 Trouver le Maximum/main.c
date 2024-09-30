@@ -3,7 +3,7 @@
 
 int main()
 {
-   int n,i;
+    int n,i;
     printf("enter le nombre d'éléments\nn = ");
     scanf("%d",&n);
      int T[n];
@@ -19,10 +19,10 @@ int main()
      int max=T[0];
      for(i=0;i<n;i++)//5 6 7 9 1
     {
-        if(max<T[i]) max = T[i];
+        if(max<T[i]) max= T[i];
         else max = max;
     }
-    printf("\net max  = %d",max);
-
+    printf("\net min  = %d",max);
     return 0;
 }
+

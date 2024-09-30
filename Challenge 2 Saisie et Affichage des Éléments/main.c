@@ -3,7 +3,7 @@
 
 int main()
 {
-    int n,i;
+    int n,i,j;
     printf("enter le nombre d'éléments\nn = ");
     scanf("%d",&n);
      int T[n];
@@ -15,7 +15,7 @@ int main()
      }
      printf("donc les element du tableaux sont :\n");
 
-     for(i=0;i<n;i++)
+     for(i=0,j=0;i<n,j<n;i++,j++)
      {
          printf("%d\t",T[i]);
 
